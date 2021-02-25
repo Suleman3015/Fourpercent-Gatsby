@@ -1,0 +1,27 @@
+.hero__cover {
+    background: url('../images/header.png') no-repeat center center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  @media (min-width: 200px) and (max-width: 500px) {
+    .each-slide img {
+      width: 100vw;
+      height: 37vh;
+    }
+  }
