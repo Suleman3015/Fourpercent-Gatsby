@@ -54,7 +54,7 @@ const ContactFields = () => {
             ...data,
             buttonText: 'Sending...'
         });
-        axios.post('/.netlify/functions/sendmail', data)
+        axios.post('/.netlify/functions/sendMail', data)
             .then(res => {
                 if(res.data.result == 'success') {
                     setData({
